@@ -7,3 +7,4 @@
  */
 
 require '../../src/view/headerClient.php';
+require '../../src/view/navbar.php';
