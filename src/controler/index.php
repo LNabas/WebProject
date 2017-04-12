@@ -6,4 +6,4 @@
  * Time: 14:08
  */
 
-require 'src/view/headerVisitor.php';
+require '../../src/view/headerClient.php';

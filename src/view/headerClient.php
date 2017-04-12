@@ -26,7 +26,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="logoHeader">
-                    <img src="logo.png" class="" alr="logo"/>
+                    <img src="logo.png" class="img-responsive" alr="logo"/>
                 </div>
                 <div class="header">
                     <h1>
