@@ -1,0 +1,31 @@
+/* Header */
+header
+{
+    background-color: #C2242A;
+}
+.logoHeader
+{
+    position: absolute;
+}
+.header
+{
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.buttonHeader
+{
+    position: absolute;
+    left: 80%;
+    top: 5%;
+}
+/* fin du Header */
+/* navbar*/
+.nav
+{
+    position: fixed;
+    right: 5%;
+    width: auto;
+}
+
+/* fin de la navbar*/
