@@ -20,6 +20,7 @@ header
     top: 3%;
 }
 /* fin du Header */
+
 /* navbar*/
 .nav
 {
@@ -30,3 +31,14 @@ header
 }
 
 /* fin de la navbar*/
+
+/* formulaire inscription*/
+.inscription
+{
+    display: block;
+    position: absolute;
+    left: 35%;
+    margin:2% 2% 2% 2%;
+}
+
+/* fin formulaire inscription*/

@@ -20,19 +20,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <body>
+<div class="inscription">
 <div class="container-fluid">
 <form method="post">
-    <div class="form-groupe">
-        <label>Identifiant:<input type="text" name="identifiant"/></label><br/>
+    <div class="form-horizontal">
+        <label class="control-label">Identifiant:<input type="text" name="identifiant"/></label><br/>
     </div>
     <div class="form-groupe">
-        <label>Mot de passe: <input type="password" name="passe"/></label><br/>
+        <label class="control-label">Mot de passe: <input type="password" name="passe"/></label><br/>
     </div>
     <div class="form-groupe">
-        <label>Confirmation du mot de passe: <input type="password" name="passe2"/></label><br/>
+        <label class="control-label">Confirmation du mot de passe: <input type="password" name="passe2"/></label><br/>
     </div>
     <div class="form-groupe">
-        <label>Promotion <select name="nom" size="1"></label><br/>
+        <label class="control-label">Promotion <select name="nom" size="1"></label><br/>
         <option>A1</option>
         <option>A2</option>
         <option>A3</option>
@@ -41,16 +42,18 @@
     </select>
     </div>
     <div class="form-groupe">
-        <label>Adresse e-mail: <input type="text" name="email"/></label><br/>
+        <label class="control-label">Adresse e-mail: <input type="text" name="email"/></label><br/>
     </div>
 
         <input type="submit" value="M'inscrire" class="btn btn-default"/>
-    </div>
+</div>
+
 
 
 
 
 </form>
+    </div>
 
 </body>
 </html>
