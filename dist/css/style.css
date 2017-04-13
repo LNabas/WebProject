@@ -1,0 +1,44 @@
+/* Header */
+header
+{
+    background-color: #C2242A;
+}
+.logoHeader
+{
+    position: absolute;
+}
+.header
+{
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.buttonHeader
+{
+    position: absolute;
+    left: 80%;
+    top: 3%;
+}
+/* fin du Header */
+
+/* navbar*/
+.nav
+{
+    position: fixed;
+    right: 5%;
+    width: auto;
+    margin-top: 2%;
+}
+
+/* fin de la navbar*/
+
+/* formulaire inscription*/
+.inscription
+{
+    display: block;
+    position: absolute;
+    left: 35%;
+    margin:2% 2% 2% 2%;
+}
+
+/* fin formulaire inscription*/
