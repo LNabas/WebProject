@@ -17,7 +17,7 @@ header
 {
     position: absolute;
     left: 80%;
-    top: 5%;
+    top: 3%;
 }
 /* fin du Header */
 /* navbar*/
@@ -26,6 +26,7 @@ header
     position: fixed;
     right: 5%;
     width: auto;
+    margin-top: 2%;
 }
 
 /* fin de la navbar*/
