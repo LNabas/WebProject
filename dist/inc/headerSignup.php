@@ -35,12 +35,12 @@
 
                 <?php if (isset($_SESSION['auth'])): ?>
 
-                    <li><a href="../Web_projet_propre/logout.php">Se déconnecter</a></li>
+                    <li><a href="../../src/alexphp/logout.php">Se déconnecter</a></li>
 
                 <?php else: ?>
 
-                    <li><a href="../Web_projet_propre/register.php">S'inscrire</a></li>
-                    <li><a href="../Web_projet_propre/login.php">Se connecter</a></li>
+                    <li><a href="../../src/alexphp/register.php">S'inscrire</a></li>
+                    <li><a href="../../src/alexphp/login.php">Se connecter</a></li>
 
                 <?php endif; ?>
             </ul>

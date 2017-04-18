@@ -5,10 +5,19 @@
  * Date: 18/04/2017
  * Time: 09:45
  */
-
-
 session_start();
-include_once("../../src/Lucas Test/fonction_panier.php");
+require_once '../../dist/inc/bootstrap.php';
+require_once '../../dist/inc/functions.php';
+
+// Je veux récupérer l'utilisateur
+if(!empty($_POST)){
+
+    $errors = array();
+
+    $db = App::getDatabase();
+
+
+include_once("../../src/LucasTest/fonction_panier.php");
 
 $erreur = false;
 

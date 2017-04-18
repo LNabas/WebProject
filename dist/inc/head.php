@@ -13,7 +13,7 @@
     <title>EXIA BDE Lyon</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/app.css" rel="stylesheet">
+    <link href="../../dist/css/app.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,8 +31,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="register.php">S'inscrire</a></li>
-                <li><a href="login.php">Se connecter</a></li>
+                <li class="active"><a href="../../src/alexphp/register.php">S'inscrire</a></li>
+                <li><a href="../../src/alexphp/login.php">Se connecter</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>
