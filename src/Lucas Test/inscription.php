@@ -5,6 +5,15 @@
  * Date: 13/04/2017
  * Time: 11:35
  */
+
+
+ if($_POST['email'] != "@viacesi.fr" XOR "cesi.fr"){
+     die('bot!');
+ }
+ else{
+
+ }
+
 ?>
 
 <html xmlns="http://www.w3.org/1999/html">
@@ -22,7 +31,7 @@
 <body>
 <div class="inscription">
 <div class="container-fluid">
-<form method="post">
+<form method="post" action="">
     <div class="form-horizontal">
         <label class="control-label">Identifiant:<input type="text" name="identifiant"/></label><br/>
     </div>
@@ -42,7 +51,7 @@
     </select>
     </div>
     <div class="form-groupe">
-        <label class="control-label">Adresse e-mail: <input type="text" name="email"/></label><br/>
+        <label class="control-label">Adresse e-mail: <input type="email" name="email"/></label><br/>
     </div>
 
         <input type="submit" value="M'inscrire" class="btn btn-default"/>
