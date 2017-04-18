@@ -7,7 +7,7 @@
  */
 
 
- if($_POST['email'] != "@viacesi.fr" AND "cesi.fr"){
+ if($_POST['email'] != "@viacesi.fr" XOR "cesi.fr"){
      die('bot!');
  }
  else{
