@@ -1,5 +1,5 @@
 <?php
-require 'inc/bootstrap.php';
+require '../../dist/inc/bootstrap.php';
 $db = App::getDatabase();
 
 

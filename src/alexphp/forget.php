@@ -1,5 +1,5 @@
 <?php
-require 'inc/bootstrap.php';
+require '../../dist/inc/bootstrap.php';
 if(!empty($_POST) && !empty($_POST['email'])){
     $db = App::getDatabase();
     $auth = App::getAuth();
@@ -12,7 +12,7 @@ if(!empty($_POST) && !empty($_POST['email'])){
     }
 }
 ?>
-<?php require 'inc/header.php';?>
+<?php require '../../dist/inc/headerSignup.php';?>
 
 <h1>Mot de passe oublié</h1>
 
@@ -27,4 +27,4 @@ if(!empty($_POST) && !empty($_POST['email'])){
 
 </form>
 
-<?php require 'inc/footer.php'; ?>
+<?php require '../../dist/inc/footer.php'; ?>

@@ -1,5 +1,5 @@
 <?php
-require 'inc/bootstrap.php';
+require '../../dist/inc/bootstrap.php';
 $auth = App::getAuth();
 $db = App::getDatabase();
 $auth->connectFromCookie($db);
@@ -17,7 +17,7 @@ if(!empty($_POST) && !empty($_POST['username']) && !empty($_POST['password'])){
     }
 }
 ?>
-<?php require 'inc/header.php';?>
+<?php require '../../dist/inc/headerSignup.php';?>
 
     <h1>Se connecter</h1>
 
@@ -44,4 +44,4 @@ if(!empty($_POST) && !empty($_POST['username']) && !empty($_POST['password'])){
 
     </form>
 
-<?php require 'inc/footer.php'; ?>
+<?php require '../../dist/inc/footer.php'; ?>

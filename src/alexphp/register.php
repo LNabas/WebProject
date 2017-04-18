@@ -1,6 +1,6 @@
 <?php
-require_once 'inc/bootstrap.php';
-require_once 'inc/functions.php';
+require_once '../../dist/inc/bootstrap.php';
+require_once '../../dist/inc/functions.php';
 
 // Je veux récupérer l'utilisateur
 if(!empty($_POST)){
@@ -33,7 +33,7 @@ if(!empty($_POST)){
 }
 ?>
 
-<?php require 'inc/header.php'; ?>
+<?php require '../../dist/inc/headerSignup.php'; ?>
 
 <h1> S'inscrire </h1>
 
@@ -97,4 +97,4 @@ if(!empty($_POST)){
 
 </form>
 
-<?php require 'inc/footer.php'; ?>
+<?php require '../../dist/inc/footer.php'; ?>

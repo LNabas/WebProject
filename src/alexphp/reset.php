@@ -1,5 +1,5 @@
 <?php
-require 'inc/bootstrap.php';
+require '../../dist/inc/bootstrap.php';
 if(isset($_GET['id']) && isset($_GET['token'])){
     $auth = App::getAuth();
     $db = App::getDatabase();
@@ -24,7 +24,7 @@ if(isset($_GET['id']) && isset($_GET['token'])){
     App::redirect('login.php');
 }
 ?>
-<?php require 'header.php'; ?>
+<?php require '../../dist/inc/headerSignup.php'; ?>
 
     <h1>Réinitialiser mon mot de passe</h1>
 
@@ -53,4 +53,4 @@ if(isset($_GET['id']) && isset($_GET['token'])){
 
     </form>
 
-<?php require 'footer.php'; ?>
+<?php require '../../dist/inc/footer.php'; ?>

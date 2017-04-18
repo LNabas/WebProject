@@ -1,5 +1,5 @@
 <?php
-require 'inc/bootstrap.php';
+require '../../dist/inc/bootstrap.php';
 App::getAuth()->restrict();
 if(!empty($_POST)){
 
@@ -14,7 +14,7 @@ if(!empty($_POST)){
     }
 
 }
-require 'inc/header.php';
+require '../../dist/inc/headerSignup.php';
 ?>
 
 <h1>Bonjour <?= $_SESSION['auth']->username;  ?></h1>
@@ -32,5 +32,5 @@ require 'inc/header.php';
     <button class="btn btn-primary">changer de mot de passe</button>
 </form>
 
-<?php require 'inc/footer.php'; ?>
+<?php require '../../dist/inc/footer.php'; ?>
 
