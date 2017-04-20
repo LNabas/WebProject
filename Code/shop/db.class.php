@@ -3,8 +3,8 @@ class DB{
 
 	private $host = 'localhost';
 	private $username = 'root';
-	private $password = '';
-	private $database = 'test_web_projet';
+	private $password = 'root';
+	private $database = 'test_web_project';
 	private $db;
 
 	public function __construct($host = null, $username = null, $password = null, $database = null){
