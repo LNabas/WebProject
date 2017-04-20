@@ -12,7 +12,7 @@ class App
 
     static function getDatabase(){
         if(!self::$db){
-            self::$db = new Database('root', 'root', 'test_web_project');
+            self::$db = new Database('root', '', 'test_web_projet');
         }
         return self::$db;
     }

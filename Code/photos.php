@@ -197,9 +197,9 @@ while($user = $requser->fetch())
         <input type="submit" name="submit" value="Envoyer" />
 
     </form>
-    < /br>< /br>< /br>< /br>< /br>< /br>
+
 </div>
-< /br>< /br>
+
 <?php require_once 'inc/footer.php';  ?>
 
 </body>
